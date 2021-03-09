@@ -12,6 +12,9 @@ $(document).ready(function() {
         }
     });
 
+    $('.card').click(function(){
+        $('.popup').addClass("active");
+    });
     // slide up script 
     $('.scroll-up-btn').click(function() {
         $('html').animate({ scrollTop: 0 });
